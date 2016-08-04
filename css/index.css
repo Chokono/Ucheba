@@ -1,0 +1,426 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+#bg {
+	background: url('../land.png') center top no-repeat;
+	height: 1600px;
+	margin: 0;
+	padding: 0;
+}
+
+.osnova {
+	max-width:1200px;
+	margin: 0 auto;
+	border-bottom: 1px dashed gray;
+}
+
+.osnova1 {
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+.row {
+	max-width: 916px;
+	margin: 0 auto;
+	padding-top:0.1px;
+}
+
+.osnova>header {
+	background-color: #484848;
+}
+
+.headerLeft {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	display: inline-block;
+}
+
+.menu:first-child {
+	margin-left:-4px;
+}
+
+.menu a {
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 12px 4px;
+	color: #878787;
+	font-size: 12px;
+}
+
+.menu a:hover {
+	box-shadow: 0 0 2px #2e2e2e;
+	color: #ec3f43;
+}
+
+.clear {
+	clear: both;
+}
+
+.headerRight {
+	float: right;
+	color: #878787;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top:5px;
+}
+
+.form {
+	display: inline-block;
+	padding-right: 3px;
+	height-align: center;
+}
+
+.go {
+	background-color: #ec3f43;
+	padding: 5px 6px;
+	border-radius: 5px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+}
+
+.go:hover {
+	cursor: pointer;
+}
+
+.user, .pass {
+	margin-left: 3px;
+	width: 80px;
+	background-color: #373737;
+	border-radius: 5px;
+	border: 2px solid #2e2e2e;
+	padding: 3px 5px;
+}
+
+.logo {
+	background: url('../img/logo.png') no-repeat center left;
+	padding: 3px 5px 3px 60px;
+	font-size: 33px;
+	display: inline-block;
+	margin: 17px 0 18px;
+}
+
+.logo span {
+	color: #ec3f43;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.console {
+	background-color: #dfdfdf;
+}
+
+.mainmenu {	
+	float: left;
+}
+
+.menu1 {
+	display: inline-block;
+}
+
+.menu1 a {
+	display: block;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 12px 10px 12px 15px;
+	color: #515151;
+}
+
+.menu1 a:hover {
+	color: #ec3f43;
+}
+
+.console form {
+	display: block;
+	float: right;
+	margin: 6px 7px 0 0;
+}
+
+.lupa {
+	background: #484848 url('../img/lupa.png') no-repeat center;
+	background-size: 130%;
+	height: 26px;
+	width: 20px;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	display: block;
+	float: right;
+	border: 2px solid #2e2e2e;
+	border-left: none;
+}
+
+.lupa:hover {
+	cursor: pointer;
+}
+
+.search {
+	display: block;
+	float: right;
+	border: 2px solid #2e2e2e;
+	border-right: 0;
+	border-radius: 5px 0 0 5px;
+	padding: 3px 10px;
+	background-color: #484848;
+	width: 170px;
+}
+
+.apple {
+	margin: 60px 0 0px 11px;
+	background: url("../img/aple.png") no-repeat top right;
+}
+
+.apple h1 {
+	font-weight: normal;
+	font-size: 72px;
+	color: #ec3f43;
+	margin-bottom: 0px;
+}
+
+.apple ul {
+	margin-top: 15px;
+}
+
+.appleli {
+	color: #b4b4b4;
+	font-size: 14px;
+	padding-left: 3.8%;
+	position: relative;
+	line-height: 19px;
+}
+
+.appleli:before {
+	display:block;
+	content: "";
+	position: absolute;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	background-color: #5598cc;
+	box-shadow: 0 0 2px #5598cc;
+	top: 5px;
+	left: 16px;
+}
+
+.blackApple {
+	margin: 37px 0 69px 0.6%;
+	color: white;
+	display: inline-block;
+	font-size: 23px;
+	line-height: 18px;
+	padding: 1px 5px 5px 35px;
+	position: relative;
+	background: black;
+}
+
+.blackApple:before {
+	content: "";
+	display: block;
+	height: 37px;
+	width: 20px;
+	background: url('../img/mobila.png') no-repeat center;
+	position: absolute;
+	top: 6px;
+	left: 9px;
+}
+
+.blackApple span {
+	font-size: 14px;
+}
+
+.osnova h2 {
+	margin: 22px 0 12px 1%;
+	font-size: 40px;
+}
+
+.blockCol {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.para {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+.colonka {
+	display: inline-block;
+	margin:10px 7px;
+	width: 210px;
+	text-align: left;
+	border: 1px solid #a4a4a4;
+	border-radius: 5px;
+	position: relative;
+}
+
+.colonka h3 {
+	margin: 5px 8px;
+	font-size: 18px;
+	color: #6f9fcd;
+}
+
+.colonka p {
+	font-size: 11px;
+	margin-left: 8px;
+	color: #a4a4a4;
+}
+
+.colonka1:after {
+	display: block;
+	content: "";
+	position: absolute;
+	right: -10px;
+	bottom: -7px;
+	background: url('../img/mobilaCol.png') no-repeat center;
+	width: 80px;
+	height: 110px;
+}
+
+.colonka2:after {
+	display: block;
+	content: "";
+	position: absolute;
+	right: -10px;
+	bottom: -12px;
+	background: url('../img/mobilaCol2.png') no-repeat center;
+	width: 100px;
+	height: 105px;
+}
+
+.colonka3:after {
+	display: block;
+	content: "";
+	position: absolute;
+	right: -10px;
+	bottom: -7px;
+	background: url('../img/mobilaCol3.png') no-repeat center;
+	width: 68px;
+	height: 105px;
+}
+
+.colonka4:after {
+	display: block;
+	content: "";
+	position: absolute;
+	right: -5px;
+	bottom: -7px;
+	background: url('../img/mobilaCol4.png') no-repeat center;
+	width: 125px;
+	height: 100px;
+}
+
+.seaOutside {
+	text-align: center;
+	margin-bottom: 33px;
+}
+.sea {
+	display: inline-block;
+	width: 440px;
+	margin: 0 5px;
+	text-align: left;
+}
+
+.sea h3 {
+	color: #79c1e7;
+	font-size: 22px;
+	line-height: 21px;
+	margin-bottom: 0px;
+}
+
+.sea p {
+	font-size: 11px;
+}
+
+.sea a {
+	color: #79c1e7;
+	font-size: 12px;
+}
+
+.sea img {
+	display: block;
+	height: 135px;
+}
+
+.sea span {
+	font-size: 11px;
+}
+
+.bottom {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.about, .twitter {
+	display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    width: 440px;
+    margin: 0 5px;
+}
+
+.about h2, .twitter h2 {
+	font-size: 44px;
+	margin: 20px 0 15px;
+}
+
+.twitter a {
+	margin: 0;
+}
+
+.twitter p {
+	margin: 0px 0 17px;
+}
+
+.niz {
+	background-color: #484848;
+	padding-bottom: 8px;
+}
+
+.nizleft {
+	float: left;
+	margin: 24px 0 0 1.1%;
+	font-size: 12px;
+	color: white;
+}
+
+.nizright {
+	float: right;
+	margin: 15px 10px 0 0;
+}
+
+.sprite {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin-left: 9px;
+}
+
+.sprite1 {
+	background: url("../img/sprite1.png") no-repeat center;
+}
+
+.sprite2 {
+	background: url("../img/sprite2.png") no-repeat center;
+}
+
+.sprite3 {
+	background: url("../img/sprite3.png") no-repeat center;
+}
+
+.sprite4 {
+	background: url("../img/sprite4.png") no-repeat center;
+}
